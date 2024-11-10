@@ -1,0 +1,54 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="DesertLeaderboard">
+			<method name="ResetEntrySubmission"/>
+			<method name="SubmitEntry"/>
+		</type>
+		<type fullname="LeaderBoard">
+			<method name="ResetEntrySubmission"/>
+			<method name="SubmitEntry"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
+			<method name="PlayHard"/>
+			<method name="PlayNormal"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="PauseMenu">
+			<method name="LoadMenu"/>
+			<method name="LoadMenu"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+		</type>
+		<type fullname="SettingsMenu">
+			<method name="SetFullScreen"/>
+			<method name="SetResolution"/>
+			<method name="SetVolume"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
